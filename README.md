@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ### Data Extraction
 
-Extract and filter Reddit data from political subreddits:
+Extract and filter Reddit data from political subreddits if you have access to "The Cluster":
 
 ```bash
 spark-submit spark_extract.py
