@@ -30,8 +30,22 @@ This project analyzes political discourse on Reddit by extracting posts and comm
 ├── create_features.py         # Sentiment feature generation pipeline
 ├── sentimentmodule.py         # Sentiment analysis functions
 ├── requirements.txt           # Python dependencies
-└── README.md
+├── README.md
+├── .gitignore                 # Git ignore rules
+├── notebooks/                 # Jupyter notebooks for exploration
+│   └── read_parquet.ipynb
+└── experiments/               # Research and experimental work
+    ├── gursim/                # Author engagement analysis
+    ├── gwen/                  # Clustering and n-gram analysis
+    ├── julian/                # Activity trends and sentiment analysis
+    └── ml_testing/            # Machine learning experiments
 ```
+
+**Note**: Data files are not included in version control. You'll need to:
+1. Download Reddit data separately (or use your own dataset)
+2. Create a `data/` directory structure locally with `raw/`, `processed/`, and `output/` subdirectories
+3. Place your Reddit parquet files in `data/raw/`
+4. Run the extraction and sentiment analysis pipeline to generate processed data
 
 ## Installation
 
